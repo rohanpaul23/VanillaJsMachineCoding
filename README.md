@@ -1,3 +1,6 @@
 # VanillaJsMachineCoding
 
-[Modal Component Using Vanilla Js](https://github.com/rohanpaul23/VanillaJsMachineCoding/tree/main/Modal) <br>
+Below are some simple components developed using Vanilla JS
+
+[Modal](https://github.com/rohanpaul23/VanillaJsMachineCoding/tree/main/Modal) <br>
+[Accordion](https://github.com/rohanpaul23/VanillaJsMachineCoding/tree/main/Accordion) <br>
