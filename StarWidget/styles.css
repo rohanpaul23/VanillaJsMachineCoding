@@ -1,0 +1,38 @@
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.stars-container{
+    background-color: #B8B8AA;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.fa-star{
+    color: white;
+    font-size: 30px !important;
+    margin-right: 1;
+}
+
+.selected{
+    color: #7F9183;
+}
+
+.reset-btn{
+    margin-top: 10px;
+    background-color: #B8B8AA;
+    color: whitesmoke;
+    padding: 10px;
+    border: none;
+}
+
