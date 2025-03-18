@@ -1,0 +1,89 @@
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.imagesSlider{
+    height: 300px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+}
+
+.allImages{
+    /* position: relative; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imageDimensions{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    opacity: 0;
+}
+
+.active {
+    opacity: 1;
+}
+
+.counter-indicator{
+    display: flex;
+    gap: 5px;
+}
+
+.currentIndicator {
+    height: 20px;
+    width: 20px;
+    background: green;
+    border-radius: 50%;
+    opacity: 0.3;
+
+}
+
+.currentIndicatorActive{
+    opacity: 1;
+}
+
+.caret {
+    font-size: 21px;
+    color: green;
+    font-weight: 800;
+    cursor: pointer;
+    border-radius: 1;
+}
+
+.input-container{
+    display: flex;
+    gap: 10px;
+}
+
+.input {
+    border: none;
+    border-bottom: 2px solid blue;
+}
+
+.input:focus{
+    outline: none;
+    border-bottom: 2px solid red;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
