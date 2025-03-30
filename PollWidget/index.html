@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Poll Widget</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div id="root-container" class="container">
+        <h2>Poll Widget</h2>
+        <div id="widget-container" class="widget-container">
+          <div data-index="1" class="item">
+            <div class="item-checkbox">
+            <div>
+              <input type="radio" name="framework" value="react" checked/>
+              <span>React Js</span>
+            </div>
+              <span>50 votes (50%)</span>
+            </div>
+            <div class="bar">
+              <div class="selected-percentage"></div>
+            </div>
+          </div>
+          <div data-index="2" class="item">
+            <div class="item-checkbox">
+            <div>
+              <input type="radio" name="framework" value="react" checked/>
+              <span>Angular Js</span>
+            </div>
+              <span>30 votes (30%)</span>
+            </div>
+            <div class="bar">
+              <div class="selected-percentage"></div>
+            </div>
+          </div>
+          <div data-index="3" class="item">
+            <div class="item-checkbox">
+            <div>
+              <input type="radio" name="framework" value="react" checked/>
+              <span>Next Js</span>
+            </div>
+              <span>20 votes (20%)</span>
+            </div>
+            <div class="bar">
+              <div class="selected-percentage"></div>
+            </div>
+          </div>
+        </div>
+    </div> 
+    <script src="script.js"></script>
+  </body>
+</html>
