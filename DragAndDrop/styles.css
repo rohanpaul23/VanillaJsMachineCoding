@@ -1,0 +1,32 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.container-item {
+    height: 200px;
+    width: 300px;
+    background-color: #99c9b1;
+    overflow: scroll;
+}
+
+.item{
+    width: 100px;
+    height: 20px;
+    background-color: #209220;
+    cursor: move;
+    margin-bottom: 10px;
+}
+
+.dragging {
+    opacity: 0.5;
+}
